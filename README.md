@@ -17,6 +17,9 @@ brew tap visualcjy/macpm
 brew install macpm
 ```
 
+This is a third-party tap, so a recent Homebrew may ask you to trust it; answer
+yes, or run `brew trust visualcjy/macpm` first.
+
 ## Upgrade
 
 ```sh
