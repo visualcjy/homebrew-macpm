@@ -5,8 +5,8 @@ class Macpm < Formula
   sha256 "95fa36508ecf9c22ebc491befe72807c3ea9a903d5cb0a82ce502d15ce664e0e"
   license "MIT"
 
-  depends_on :macos
   depends_on arch: :arm64
+  depends_on :macos
 
   def install
     bin.install "macpm", "macpm-sensors"
