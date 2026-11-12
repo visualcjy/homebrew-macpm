@@ -1,8 +1,8 @@
 class Macpm < Formula
   desc "Rootless performance monitor for Apple Silicon"
   homepage "https://github.com/visualcjy/macpm"
-  url "https://github.com/visualcjy/macpm/releases/download/v2.1/macpm-2.1-macos-arm64.tar.gz"
-  sha256 "047adf3b9a59954e2d02f774b2386fc93bbdc9c3e75f02612eca0aed94509cf0"
+  url "https://github.com/visualcjy/macpm/releases/download/v2.2/macpm-2.2-macos-arm64.tar.gz"
+  sha256 "707d1708e46ff9b7fece412f36e3dee27438b1164c325661a484ad11dcd1c536"
   license "MIT"
 
   depends_on arch: :arm64
