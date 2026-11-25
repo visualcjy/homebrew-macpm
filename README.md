@@ -9,8 +9,8 @@ performance monitor for Apple Silicon.
 brew install visualcjy/macpm/macpm
 ```
 
-That single command taps this repository and installs `macpm` together with
-`macpm-sensors`. To tap explicitly first:
+That single command taps this repository and installs the `macpm` command.
+To tap explicitly first:
 
 ```sh
 brew tap visualcjy/macpm
@@ -41,5 +41,5 @@ brew untap visualcjy/macpm
 - The formula installs the prebuilt arm64 binaries from the
   [upstream releases](https://github.com/visualcjy/macpm/releases), so no
   Python installation is required.
-- `macpm-sensors` reads temperatures and fan speeds through the SMC; the
-  default TUI stays identical to macpm 0.x.
+- The tarball also carries `install.sh` and `macpm.command` for manual
+  installs; the formula only links `macpm` and its README.
